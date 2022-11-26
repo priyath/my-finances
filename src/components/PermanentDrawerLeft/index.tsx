@@ -45,7 +45,7 @@ const PermanentDrawerLeft = () => {
                 <Toolbar />
                 <Divider />
                 <List>
-                    {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+                    {['Dashboard', 'Transactions', 'Savings', 'Investments'].map((text, index) => (
                         <ListItem key={text} disablePadding>
                             <ListItemButton>
                                 <ListItemIcon>
@@ -58,7 +58,7 @@ const PermanentDrawerLeft = () => {
                 </List>
                 <Divider />
                 <List>
-                    {['All mail', 'Trash', 'Spam'].map((text, index) => (
+                    {['Configuration'].map((text, index) => (
                         <ListItem key={text} disablePadding>
                             <ListItemButton>
                                 <ListItemIcon>
